@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Dikeledi Madibogo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="top">
+    <header class="sticky top-0 z-50 bg-light-card dark:bg-dark-card shadow-md border-b border-gray-200 dark:border-dark-border">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-primary">DM Portfolio</a>
+                </div>
+
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <button id="theme-toggle" class="theme-toggle-btn">
+                        <i id="theme-icon-moon" class="fas fa-moon theme-icon"></i>
+                        <i id="theme-icon-sun" class="fas fa-sun theme-icon hidden"></i>
+                    </button>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <i id="menu-icon-open" class="fas fa-bars menu-icon"></i>
+                        <i id="menu-icon-close" class="fas fa-times menu-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="md:hidden hidden mobile-menu">
+                <a href="index.html" class="block nav-link px-4 py-2">Home</a>
+                <a href="about.html" class="block nav-link px-4 py-2">About</a>
+                <a href="projects.html" class="block nav-link px-4 py-2">Projects</a>
+                <a href="contact.html" class="block nav-link px-4 py-2">Contact</a>
+                <button id="theme-toggle-mobile" class="theme-toggle-btn w-full text-left px-4 py-2">
+                    <i id="theme-icon-moon-mobile" class="fas fa-moon theme-icon"></i>
+                    <i id="theme-icon-sun-mobile" class="fas fa-sun theme-icon hidden"></i>
+                    <span class="ml-2">Toggle Theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container py-16 md:py-24 reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">My Work</span>
+                <h2 class="section-title">All Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="img/credit-card fraud.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>A machine learning project that detects fraudulent credit card transactions using Python and various ML algorithms.</p>
+                        <div class="project-tags">
+                            <span>pandas</span>
+                            <span>numpy</span>
+                            <span>Jupyter</span>
+                            <span>Joblib</span>
+                            <span>scikit-learn</span>
+                            <span>matplot & seaborn</span>
+                            <span>imbalanced-learn</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dikeledi123" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="img/SAKasiConnect.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-card-content">
+                        <h3>SAKasiConnect</h3>
+                        <p>A platform where people can advertise their local businesses.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Vite</span>
+                            <span>TypeScript</span>
+                            <span>Shadcn-ui</span>
+                            <span>Tailwind css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dikeledi123" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="img/vut-cafeteria.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-card-content">
+                        <h3>VUT Cafeteria</h3>
+                        <p>A user friendly website for the VUT Cafeteria for students and staff.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dikeledi123" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            <div class="text-center mt-16 reveal">
+                <h3 class="text-2xl font-semibold mb-4">See More on My GitHub</h3>
+                <a href="https://github.com/Pitso4859" target="_blank" class="btn-secondary">
+                    <i class="fab fa-github"></i> Visit GitHub
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DM Portfolio</h3>
+                    <p>A passionate software developer creating efficient and user-friendly solutions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Pitso4859" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dikeledi Madibogo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top-btn hidden" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

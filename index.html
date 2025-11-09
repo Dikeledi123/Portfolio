@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikeledi Madibogo | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="top">
+    <header class="sticky top-0 z-50 bg-light-card dark:bg-dark-card shadow-md border-b border-gray-200 dark:border-dark-border">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-primary">DM Portfolio</a>
+                </div>
+
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <button id="theme-toggle" class="theme-toggle-btn">
+                        <i id="theme-icon-moon" class="fas fa-moon theme-icon"></i>
+                        <i id="theme-icon-sun" class="fas fa-sun theme-icon hidden"></i>
+                    </button>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <i id="menu-icon-open" class="fas fa-bars menu-icon"></i>
+                        <i id="menu-icon-close" class="fas fa-times menu-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="md:hidden hidden mobile-menu">
+                <a href="index.html" class="block nav-link px-4 py-2">Home</a>
+                <a href="about.html" class="block nav-link px-4 py-2">About</a>
+                <a href="projects.html" class="block nav-link px-4 py-2">Projects</a>
+                <a href="contact.html" class="block nav-link px-4 py-2">Contact</a>
+                <button id="theme-toggle-mobile" class="theme-toggle-btn w-full text-left px-4 py-2">
+                    <i id="theme-icon-moon-mobile" class="fas fa-moon theme-icon"></i>
+                    <i id="theme-icon-sun-mobile" class="fas fa-sun theme-icon hidden"></i>
+                    <span class="ml-2">Toggle Theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section container reveal">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="sub-heading">Hello, I'm</span>
+                    <h1 class="hero-title">Dikeledi Madibogo</h1>
+                    <h2 class="hero-subtitle">
+                        <span>I am a </span>
+                        <span class="typing-text"></span>
+                    </h2>
+                    <p class="hero-description">
+                        I'm a passionate software developer based in South Africa, specializing in building exceptional and user-friendly digital experiences.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-glow"></div>
+                    <img src="img/Profile.jpg" alt="Dikeledi Madibogo" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section container reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">What I Do</span>
+                <h2 class="section-title">My Specializations</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive, high-performance websites using modern technologies like HTML5, CSS3, JavaScript, and frameworks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Back-end Development</h3>
+                    <p>Building robust server-side applications and APIs using technologies like Node.js,and PHP.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database Management</h3>
+                    <p>Structuring and managing data efficiently with SQL and NoSQL databases to power applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section container reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/personalportfolio.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive personal portfolio website showcasing my projects and skills, built with modern HTML5, CSS3, and JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dikeledi123" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="text-center mt-12">
+                <a href="projects.html" class="btn-primary">View All Projects</a>
+            </div>
+        </section>
+
+        <section class="cta-section reveal">
+            <div class="container text-center">
+                <h2 class="section-title text-white">Interested in working together?</h2>
+                <p class="cta-description">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                </p>
+                <a href="contact.html" class="btn-primary-light">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DM Portfolio</h3>
+                    <p>A passionate software developer creating efficient and user-friendly solutions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Dikeledi123" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dikeledi-madibogo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dikeledi Madibogo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top-btn hidden" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

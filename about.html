@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Dikeledi Madibogo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="top">
+    <header class="sticky top-0 z-50 bg-light-card dark:bg-dark-card shadow-md border-b border-gray-200 dark:border-dark-border">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-primary">DM Portfolio</a>
+                </div>
+
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <button id="theme-toggle" class="theme-toggle-btn">
+                        <i id="theme-icon-moon" class="fas fa-moon theme-icon"></i>
+                        <i id="theme-icon-sun" class="fas fa-sun theme-icon hidden"></i>
+                    </button>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <i id="menu-icon-open" class="fas fa-bars menu-icon"></i>
+                        <i id="menu-icon-close" class="fas fa-times menu-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="md:hidden hidden mobile-menu">
+                <a href="index.html" class="block nav-link px-4 py-2">Home</a>
+                <a href="about.html" class="block nav-link px-4 py-2">About</a>
+                <a href="projects.html" class="block nav-link px-4 py-2">Projects</a>
+                <a href="contact.html" class="block nav-link px-4 py-2">Contact</a>
+                <button id="theme-toggle-mobile" class="theme-toggle-btn w-full text-left px-4 py-2">
+                    <i id="theme-icon-moon-mobile" class="fas fa-moon theme-icon"></i>
+                    <i id="theme-icon-sun-mobile" class="fas fa-sun theme-icon hidden"></i>
+                    <span class="ml-2">Toggle Theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container py-16 md:py-24 reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">About Me</span>
+                <h2 class="section-title">A Bit About Myself</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-5">
+                    <div class="about-image-wrapper">
+                        <img src="img/Profile.jpg" alt="Dikeledi Madibogo" class="profile-pic-large">
+                    </div>
+                </div>
+                <div class="md:col-span-7">
+                    <h3 class="text-3xl font-bold mb-4">I'm Dikeledi Madibogo, a Software Developer</h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+                        I am a detail-oriented and motivated software developer with a strong foundation in computer science and a passion for technology. I am currently honing my skills through the Cisco Networking Academy program.
+                    </p>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                        My journey in tech began with a fascination for how applications solve real-world problems. I've expanded my skills to include database management and backend development. I enjoy the challenge of turning complex problems into simple, beautiful, and intuitive solutions.
+                    </p>
+                    <a href="img/RESUME_OF_DIKELEDI_MADIBOGO.pdf" download class="btn-primary">Download My CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-16 md:py-24 bg-light-bg dark:bg-dark-bg rounded-lg reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">My Toolkit</span>
+                <h2 class="section-title">My Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-badge"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-badge"><i class="fab fa-js-square"></i> JavaScript</div>
+                <div class="skill-badge"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-badge"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-badge"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="skill-badge"><i class="fab fa-github"></i> GitHub</div>
+                <div class="skill-badge"><i class="fab fa-react"></i> React</div>
+                <div class="skill-badge"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="skill-badge"><i class="fab fa-java"></i> Java</div>
+            </div>
+        </section>
+
+        <section class="container py-16 md:py-24 reveal">
+            <div class="text-center mb-12">
+                <span class="sub-heading">My Journey</span>
+                <h2 class="section-title">Experience & Education</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3 class="timeline-title">Software Developer Student</h3>
+                        <p class="timeline-company">Cisco Networking Academy</p>
+                        <p>Engaged in a rigorous, project-based software developer program covering full-stack development, algorithms, data structures, and more.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2025</span>
+                        <h3 class="timeline-title">National Diploma in Information Technology</h3>
+                        <p class="timeline-company">Vaal University of Technology</p>
+                        <p>Gained a comprehensive foundation in IT, including software development, database management, and networking.</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DM Portfolio</h3>
+                    <p>A passionate software developer creating efficient and user-friendly solutions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Dikeledi123" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dikeledi-madibogo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dikeledi Madibogo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top-btn hidden" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
